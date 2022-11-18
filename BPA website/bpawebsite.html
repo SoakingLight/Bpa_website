@@ -13,21 +13,38 @@
 	   float: left;
 	   padding-left: 10px;
 	}
-	a{
+	.a{
+    position: relative;
 	 padding: 20px;
+	 right: 10px;
 	 font-size: 2.5em;
 	 text-decoration: none;
 	 color: white;
+	 
+	}
+	.mag{
+		padding: 10px;
+		width: 70px;
+		height: 70px;
+		float: right;
+		
+	}
+	form{
+		float: right;
+		margin: 20px;
 	}
   </style>
 </head>
 <body>
   <nav>
     <a href="bpawebsite.html"><img src="assets/logo.png" class="logo"> &nbsp; |</a>
-	<a href="#">VECHICLES &nbsp; |</a>
-	<a href="#">FINANCING &nbsp;|</a>
-	<a href="#">CONTENT &nbsp;  |</a>
-	<a href="#"><img src="assets/mag.png">SEARCH</a>
+	<a href="#" class="a">VECHICLES &nbsp; |</a>
+	<a href="#" class="a">FINANCING &nbsp;|</a>
+	<a href="#" class="a">CONTENT &nbsp;  |</a>
+	<a href="#" class="a"><img src="assets/mag.png" class="mag"></a>
+	<form>
+		<input type="text">
+	</form>
   </nav>
 </body>
 </html>
