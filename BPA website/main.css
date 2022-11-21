@@ -13,8 +13,9 @@ nav{
   float: left;
   padding-left: 10px;
 }
+
 .a{
-position: relative;
+position: relative; 
     padding: 20px;
     right: 10px;
     font-size: 2.5em;
