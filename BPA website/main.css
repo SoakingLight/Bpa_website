@@ -14,7 +14,31 @@ nav{
   padding-left: 10px;
 }
 
-.drop {
+.dropdown{
+    background-color: #99016B;
+    color: white;
+    font-size: 1.em;
+}
+.dropdowncont{
+    display: none;
+    position: absolute;
+    background-color: #99016B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdowncont a{
+    color: white;
+    padding: 12px,16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdowncont a:hover{background-color:#5a003f}
+.dropdown:hover .dropdowncont { display: block;}
+.dropdown:hover .dropdown{background-color: #99016B;}
+
+
+.drop{
 position: relative; 
     padding: 20px;
     right: 10px;
