@@ -17,7 +17,8 @@ nav{
 .dropdown{
     background-color: #99016B;
     color: white;
-    font-size: 1.em;
+    padding: 20px;
+
 }
 .dropdowncont{
     display: none;
