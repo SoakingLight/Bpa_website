@@ -13,7 +13,7 @@ nav{
   float: left;
   padding-left: 10px;
 }
-
+ 
 .dropdown{
     background-color: #99016B;
     color: white;
@@ -37,6 +37,7 @@ nav{
 .dropdowncont a:hover{background-color:#5a003f}
 .dropdown:hover .dropdowncont { display: block;}
 .dropdown:hover .dropdown{background-color: #99016B;}
+
 
 
 .drop{
