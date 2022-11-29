@@ -39,18 +39,21 @@ nav ul li {
 .dropdowncont{
     display: none;
     background-color: #99016B;
-    min-width: 160px;
+    min-width: 320px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    position: absolute;
+    top: 90px;
 }
 .dropdowncont a{
     color: white;
     padding: 12px,16px;
     text-decoration: none;
     display: block;
+    font-size: 2em;
 }
 .dropdowncont a:hover{background-color:#5a003f}
-.drop:hover .dropdowncont { display: block;}
+.dropdownhover:hover .dropdowncont { display: block;}
 .drop:hover + .dropdown{background-color: #99016B;}
 
 
