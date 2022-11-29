@@ -3,7 +3,57 @@
     <title>Car Little's Used Car Lot</title>
     <link rel="icon" type="image/x-icon" href = "assets/logo.png">
 	<link rel="stylesheet" href="main.css">
-
+	<style>
+		.box{
+    		margin: 20px;
+    		border: 2px solid black;
+    		border-radius: 5px;
+    		width: 50%;
+    		height: 30px;
+    		font-size: 1.5em;
+    		padding-left: 20px;
+		}
+		.paperwork{
+    		position: relative;
+    		right: 50px;
+    		padding: 20px;
+    		width: 25%;
+    		background-color: rgb(212, 232, 255);
+    		border: 2px outset black;
+		}
+		h2{
+			text-align: center;
+		}
+		select{
+			margin: 10px;
+			width: 110px;
+			height: 30px;
+			font-size: 1em;
+		}
+		input[type=submit]{
+			margin: 10px;
+			margin-left: 45%;
+			width: 70px;
+			height: 30px;
+		}
+		article{
+			float: left;
+			width: 25%;
+			background-color: rgb(220, 168, 250);
+			margin-left: 30px;
+			height: 600px;
+			border: 2px outset black;
+		}
+		.aboutbox{
+			right: 40%;
+			width: 25%;
+			background-color: rgb(220, 168, 250);
+			margin-left: 20px;
+			height: 600px;
+			border: 2px outset black;
+			position: absolute;
+		}
+	</style>
 </head>
 
 
@@ -47,7 +97,7 @@
 </ul>
 </nav>
 <body>
-  <div style = "background-color: #7c7b82; margin-left: 20px; margin-right: 20px;"> 
+	<div style = "background-color: #7c7b82; margin-left: 20px; margin-right: 20px;"> 
         <h1 style = "margin-left: 10px;"> OUR STAFF </h1>
         <p style = "text-align: right; margin-right: 30px;">
             At Car Little's Used Car Lot we are dutiful to our slogan; "Lot's of cars, little prices," which is our staff features 
@@ -55,15 +105,33 @@
         </p>
   </div>
   <form class="paperwork">
-    <label for="firstname">Enter First Name:</label><br>
+	<h2>Job Application</h2>
+	<hr>
+    <label for="firstname">First Name:</label><br>
     <input type="text" name="firstname" class="box"><br>
-    <label for="lastname">Enter Last Name:</label><br>
+    <label for="lastname"> Last Name:</label><br>
     <input type="text" name="lastname" class="box"><br>
-    <label for="email">Enter Email:</label><br>
+    <label for="email"> Email:</label><br>
     <input type="email" name="email" class="box"><br>
-    <label for="bday">Enter Birthday:</label><br>
+    <label for="bday">Birthday:</label><br>
     <input type="datetime-local"name="bday" class="box"><br>
+	<label for="bday">Choose a Positons</label><br>
+    <select>
+		<option>Sales Rep.</option>
+		<option>Accountent</option>
+		<option>Intern</option>
+		<option>Manger</option>
+		<option>Security</option>
+		<option>Janitorial</option>
+		<option>Mechanic</option>
+	</select><br>
     <input type="submit">
   </form>
+  <article>
+	<h1 style = "margin-left: 10px;"> OUR STAFF </h1>
+  </article>
+  <div class="aboutbox">
+	<h2>About us</h2>
+  </div>
 </body>
 </html>
