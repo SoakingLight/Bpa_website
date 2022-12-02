@@ -3,7 +3,7 @@ let finalDivOutput = "";
 
 for (let i = 0; i != vehicleArray.length; i++) {
 finalDivOutput += 
-`<div class = "vehicleDiv"> 
+`<div class = "vehicleDiv" ${(i%2 == 0)? 'style = "margin-right: 0;"' : ""}> 
 <img height = "200px" src = "${vehicleArray[i].imageURL}"> 
 <h1> ${vehicleArray[i].year + " " + vehicleArray[i].color + " " + vehicleArray[i].brand + " " + vehicleArray[i].model} </h1> 
 <h2 style = "margin-left: 450px;"> Price: ${"₿" + vehicleArray[i].price} </h2>

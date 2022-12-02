@@ -30,10 +30,11 @@ nav ul li {
 }
 .vehicleDiv{
     margin: 2%;
+    margin-bottom: 0;
     border: black;
     border-style: solid;
     border-width: 1%;
-    width: 46%;
+    width: 47%;
     float: left;
     box-sizing:border-box;
 }
