@@ -33,7 +33,9 @@ nav ul li {
     border: black;
     border-style: solid;
     border-width: 1%;
-    max-width: 44%;
+    width: 46%;
+    float: left;
+    box-sizing:border-box;
 }
 .vehicleDiv img{
     float: left;

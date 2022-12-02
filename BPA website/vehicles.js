@@ -14,6 +14,14 @@ data = `[
         "year": 2019,
         "color": "red",
         "price": "1,000,000",
+        "imageURL": "assets/andrewtate.png"
+    },
+    {
+        "brand": "Ford",
+        "model": "Focus",
+        "year": 2012,
+        "color": "forest green",
+        "price": "25,000",
         "imageURL": "assets/testimage.png"
     }
 ]`
