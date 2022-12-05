@@ -201,7 +201,7 @@ data = `[
     {
         "brand": "Nissan",
         "model": "Cube",
-        "year": 2014,
+        "year": "2014",
         "color": "White",
         "price": "13,400",
         "Miles": "57,000",
@@ -219,20 +219,55 @@ data = `[
     {
         "brand": "Subaru",
         "model": "Outback",
-        "year": 1998,
+        "year": "1998",
         "color": "Blue",
         "price": "2,000",
         "Miles": "150,000",
         "imageURL": "assets/testimage.png"
-    }
-    ,
+    },
     {
         "brand": "Ford",
         "model": "Fusion",
-        "year": 2017,
+        "year": "2017",
         "color": "Gray",
         "price": "15,400",
         "Miles": "36,400",
+        "imageURL": "assets/testimage.png"
+    },
+    {
+        "brand": "Toyota",
+        "model": "4Runner",
+        "year": "2018",
+        "color": "Gray",
+        "price": "38,400",
+        "Miles": "60,400",
+        "imageURL": "assets/testimage.png"
+    },
+    {
+        "brand": "Toyota",
+        "model": "4Runner",
+        "year": "2010",
+        "color": "white",
+        "price": "11,400",
+        "Miles": "240,400",
+        "imageURL": "assets/testimage.png"
+    },
+    {
+        "brand": "Ferrari",
+        "model": "Spider",
+        "year": "1982",
+        "color": "red",
+        "price": "60,400",
+        "Miles": "70,200",
+        "imageURL": "assets/testimage.png"
+    },
+    {
+        "brand": "Trans-Am",
+        "model": "bandit",
+        "year": "1977",
+        "color": "black",
+        "price": "100,400",
+        "Miles": "80,200",
         "imageURL": "assets/testimage.png"
     }
 ]`
