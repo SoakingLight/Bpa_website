@@ -25,7 +25,7 @@ data = `[
         "color": "Forest Green",
         "price": "25,000",
         "Miles": "80,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/_green ford focus.png"
     },
     {
         "brand": "Mini Cooper",
@@ -34,7 +34,7 @@ data = `[
         "color": "Black",
         "price": "15,000",
         "Miles": "70,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/mini cooper countryman black_.png"
     },
     {
         "brand": "Mini Cooper",
@@ -43,7 +43,7 @@ data = `[
         "color": "Black",
         "price": "7,000",
         "Miles": "100,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/mini cooper countryman black 2009.png"
     },
     {
         "brand": "Mini Cooper",
@@ -61,7 +61,7 @@ data = `[
         "color": "White",
         "price": "6,000",
         "Miles": "120,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/chevy trailblazer white_.png"
     },
     {
         "brand": "Jeep",
@@ -70,7 +70,7 @@ data = `[
         "color": "Red",
         "price": "14,000",
         "Miles": "86,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/jeep compass red.png"
     },
     {
         "brand": "Jeep",
@@ -79,7 +79,7 @@ data = `[
         "color": "Black",
         "price": "10,000",
         "Miles": "102,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/jeep wrangler black.png"
     },
     {
         "brand": "Jeep",
@@ -88,7 +88,7 @@ data = `[
         "color": "Black",
         "price": "8,500",
         "Miles": "115,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/jeep wrangler 2013 black.png"
     },
     {
         "brand": "Jeep",
@@ -97,7 +97,7 @@ data = `[
         "color": "White",
         "price": "12,500",
         "Miles": "83,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/jeep gladiator white.png"
     },
     {
         "brand": "Jeep",
@@ -106,7 +106,7 @@ data = `[
         "color": "Gray",
         "price": "50,500",
         "Miles": "10,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/jeep grand Cherokee gray.png"
     },
     {
         "brand": "Jeep",
@@ -115,7 +115,7 @@ data = `[
         "color": "Gray",
         "price": "8,500",
         "Miles": "115,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/jeep liberty gray.png"
     },
     {
         "brand": "Dodge",
@@ -133,7 +133,7 @@ data = `[
         "color": "Black",
         "price": "25,000",
         "Miles": "50,700",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/dodge  journey GT black.png"
     },
     {
         "brand": "Dodge",
@@ -142,7 +142,7 @@ data = `[
         "color": "Gray",
         "price": "21,300",
         "Miles": "72,200",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/dodge charger gray.png"
     },
     {
         "brand": "Dodge",
@@ -151,7 +151,7 @@ data = `[
         "color": "Red",
         "price": "23,800",
         "Miles": "60,400",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/dodge charger red.png"
     },
     {
         "brand": "Honda",
@@ -169,7 +169,7 @@ data = `[
         "color": "White",
         "price": "20,400",
         "Miles": "86,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/Nissan rogue SV white_.png"
     },
     {
         "brand": "Nissan",
@@ -178,7 +178,7 @@ data = `[
         "color": "Gray",
         "price": "5,400",
         "Miles": "170,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/Nissan cube gray.png"
     },
     {
         "brand": "Nissan",
@@ -187,7 +187,7 @@ data = `[
         "color": "Black",
         "price": "7,400",
         "Miles": "120,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/nissan cube black.png"
     },
     {
         "brand": "Nissan",
@@ -196,7 +196,7 @@ data = `[
         "color": "White",
         "price": "5,400",
         "Miles": "170,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/_nissan cube white.png"
     },
     {
         "brand": "Nissan",
@@ -205,7 +205,7 @@ data = `[
         "color": "White",
         "price": "13,400",
         "Miles": "57,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/nissan cube white 2014.png"
     },
     {
         "brand": "Nissan",
@@ -214,7 +214,7 @@ data = `[
         "color": "Gray",
         "price": "25,400",
         "Miles": "58,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/nissan frontier sv gray.png"
     },
     {
         "brand": "Subaru",
@@ -223,7 +223,7 @@ data = `[
         "color": "Blue",
         "price": "2,000",
         "Miles": "150,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/Subaru outback blue_.png"
     },
     {
         "brand": "Ford",
@@ -232,7 +232,7 @@ data = `[
         "color": "Gray",
         "price": "15,400",
         "Miles": "36,400",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/ford fusion gray 2017.png"
     },
     {
         "brand": "Toyota",
@@ -241,7 +241,7 @@ data = `[
         "color": "Gray",
         "price": "38,400",
         "Miles": "60,400",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/toyota 4runner gray.png"
     },
     {
         "brand": "Toyota",
@@ -250,7 +250,7 @@ data = `[
         "color": "white",
         "price": "11,400",
         "Miles": "240,400",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/toyota 4runner white.png"
     },
     {
         "brand": "Ferrari",
@@ -259,7 +259,7 @@ data = `[
         "color": "red",
         "price": "60,400",
         "Miles": "70,200",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/Ferrari spider red.png"
     },
     {
         "brand": "Trans-Am",
@@ -268,6 +268,6 @@ data = `[
         "color": "black",
         "price": "100,400",
         "Miles": "80,200",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/Trans-am bandit black.png"
     }
 ]`
