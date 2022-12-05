@@ -52,7 +52,7 @@ data = `[
         "color": "Blue",
         "price": "10,000",
         "Miles": "95,000",
-        "imageURL": "assets/testimage.png"
+        "imageURL": "assets/mini cooper clubman blue.png"
     },
     {
         "brand": "Chevy",
