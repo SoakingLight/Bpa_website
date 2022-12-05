@@ -39,8 +39,9 @@
 		<a href="#">
 			<img src="assets/mag.png" class="mag">
 		</a>
-		<form height = "75px">
-			<input class = "search">
+		<!--SEARCH FORM-->
+		<form height = "75px" method = "get" id = "searchform" onsubmit = "searchHandler(); return false;">
+			<input class = "search" id = "searchbar">
 		</form>
 	</li>
 </ul>
@@ -48,9 +49,8 @@
     	
 <!-- THIS IS THE IMPORTANT PART LOOK HERE  -->
 
-
-
 <body>
+
 	<div id = "main">
 
 	</div>

@@ -2,7 +2,7 @@ data = `[
     {
         "brand": "Ford",
         "model": "maverick",
-        "year": 2022,
+        "year": "2022",
         "color": "Black",
         "price": "10,000",
         "Miles": "90,000",
@@ -12,7 +12,7 @@ data = `[
     {
         "brand": "Bugatti",
         "model": "the tate",
-        "year": 2019,
+        "year": "2019",
         "color": "Red",
         "price": "1,000,000",
         "Miles": "20,000",
@@ -21,7 +21,7 @@ data = `[
     {
         "brand": "Ford",
         "model": "Focus",
-        "year": 2012,
+        "year": "2012",
         "color": "Forest Green",
         "price": "25,000",
         "Miles": "80,000",
@@ -30,7 +30,7 @@ data = `[
     {
         "brand": "Mini Cooper",
         "model": "Countryman",
-        "year": 2015,
+        "year": "2015",
         "color": "Black",
         "price": "15,000",
         "Miles": "70,000",
@@ -39,7 +39,7 @@ data = `[
     {
         "brand": "Mini Cooper",
         "model": "Countryman",
-        "year": 2009,
+        "year": "2009",
         "color": "Black",
         "price": "7,000",
         "Miles": "100,000",
@@ -48,7 +48,7 @@ data = `[
     {
         "brand": "Mini Cooper",
         "model": "Clubman",
-        "year": 2015,
+        "year": "2015",
         "color": "Blue",
         "price": "10,000",
         "Miles": "95,000",
@@ -57,7 +57,7 @@ data = `[
     {
         "brand": "Chevy",
         "model": "Trailblazer",
-        "year": 2014,
+        "year": "2014",
         "color": "White",
         "price": "6,000",
         "Miles": "120,000",
@@ -66,7 +66,7 @@ data = `[
     {
         "brand": "Jeep",
         "model": "Compass",
-        "year": 2015,
+        "year": "2015",
         "color": "Red",
         "price": "14,000",
         "Miles": "86,000",
@@ -75,7 +75,7 @@ data = `[
     {
         "brand": "Jeep",
         "model": "Wrangler",
-        "year": 2017,
+        "year": "2017",
         "color": "Black",
         "price": "10,000",
         "Miles": "102,000",
@@ -84,7 +84,7 @@ data = `[
     {
         "brand": "Jeep",
         "model": "Wrangler",
-        "year": 2013,
+        "year": "2013",
         "color": "Black",
         "price": "8,500",
         "Miles": "115,000",
@@ -93,7 +93,7 @@ data = `[
     {
         "brand": "Jeep",
         "model": "Gladitor",
-        "year": 2016,
+        "year": "2016",
         "color": "White",
         "price": "12,500",
         "Miles": "83,000",
@@ -102,7 +102,7 @@ data = `[
     {
         "brand": "Jeep",
         "model": "Grand Cherokee",
-        "year": 2021,
+        "year": "2021",
         "color": "Gray",
         "price": "50,500",
         "Miles": "10,000",
@@ -111,7 +111,7 @@ data = `[
     {
         "brand": "Jeep",
         "model": "Liberty",
-        "year": 2008,
+        "year": "2008",
         "color": "Gray",
         "price": "8,500",
         "Miles": "115,000",
@@ -120,7 +120,7 @@ data = `[
     {
         "brand": "Dodge",
         "model": "Nitro",
-        "year": 2007,
+        "year": "2007",
         "color": "Black",
         "price": "9,600",
         "Miles": "83,000",
@@ -129,7 +129,7 @@ data = `[
     {
         "brand": "Dodge",
         "model": "Journey GT",
-        "year": 2019,
+        "year": "2019",
         "color": "Black",
         "price": "25,000",
         "Miles": "50,700",
@@ -138,7 +138,7 @@ data = `[
     {
         "brand": "Dodge",
         "model": "Charger",
-        "year": 2018,
+        "year": "2018",
         "color": "Gray",
         "price": "21,300",
         "Miles": "72,200",
@@ -147,7 +147,7 @@ data = `[
     {
         "brand": "Dodge",
         "model": "Charger",
-        "year": 2020,
+        "year": "2020",
         "color": "Red",
         "price": "23,800",
         "Miles": "60,400",
@@ -156,7 +156,7 @@ data = `[
     {
         "brand": "Honda",
         "model": "Acura",
-        "year": 2001,
+        "year": "2001",
         "color": "White",
         "price": "6,000",
         "Miles": "96,000",
@@ -165,7 +165,7 @@ data = `[
     {
         "brand": "Nissan",
         "model": "Rogue SV",
-        "year": 2019,
+        "year": "2019",
         "color": "White",
         "price": "20,400",
         "Miles": "86,000",
@@ -174,7 +174,7 @@ data = `[
     {
         "brand": "Nissan",
         "model": "Cube",
-        "year": 2009,
+        "year": "2009",
         "color": "Gray",
         "price": "5,400",
         "Miles": "170,000",
@@ -183,7 +183,7 @@ data = `[
     {
         "brand": "Nissan",
         "model": "Cube",
-        "year": 2010,
+        "year": "2010",
         "color": "Black",
         "price": "7,400",
         "Miles": "120,000",
@@ -192,7 +192,7 @@ data = `[
     {
         "brand": "Nissan",
         "model": "Cube",
-        "year": 2012,
+        "year": "2012",
         "color": "White",
         "price": "5,400",
         "Miles": "170,000",
@@ -210,7 +210,7 @@ data = `[
     {
         "brand": "Nissan",
         "model": "Frontier SV",
-        "year": 2009,
+        "year": "2009",
         "color": "Gray",
         "price": "25,400",
         "Miles": "58,000",
