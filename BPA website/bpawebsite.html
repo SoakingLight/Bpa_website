@@ -20,9 +20,7 @@ font-size: large;
 }
 
 
-body{
-	background-color: rgb(141, 141, 141);
-}
+
 .info h1{
 	color: blueviolet;
 	text-align: center;
@@ -40,10 +38,22 @@ body{
 	width: 30%;
 }
 
+
+.item2 { grid-area: menu; }
+.grid-container {
+text-align: center;
+display: grid;
+grid-template-areas:
+'menu footer  ';
+font-size: 40px;
+}
+
+
 	</style>
 	<script> 
 	
 	</script>
+
 </head>
 
 
@@ -101,14 +111,14 @@ body{
 		</div>
 		
 </div> 
-
-<div class="info">
-	<h1>Where we are loacted?</h1> 
-	<p>We are loacted at 1000 Beck Rd, Wixom, MI 48393</p>
-	<iframe src="https://www.google.com/maps/place/Oakland+Schools+Technical+Campuses+(OSTC),+Southwest/@42.5365195,-83.5164206,15.75z/data=!4m5!3m4!1s0x8824a60fdb6788eb:0xed5ffb2182638b28!8m2!3d42.5379154!4d-83.5161403"></iframe>
+<div class="grid-container" style="display: inline;">
+	<div>Where are we located.</div>
+  </div>
+  <p style="font-size: 20px; padding-left: 50px;">Are lovely lot is located at 1000 Beck Road, Wixom, MI. We have a a full dedicated team of mechanics.<br> Are team will make sure you will have way better time then other places.<br>Will make sure you leave if a smily on your but in a car and a smile on your face.</p>
+  <div class="w">
+	<a href="https://www.google.com/maps/place/Oakland+Technical+Center,+Southwest+Campus/@42.5376821,-83.5158497,17z/data=!4m5!3m4!1s0x8824a60e3e29e117:0xf100d5123804d8d4!8m2!3d42.5378369!4d-83.5164628" target="_blank">
+	<img src="assets/map.png" alt="Oakland Technical Center, Southwest Campus" style="width:50%;height:50%; display: inline; " >
 	</a>
-	</div>
-  
 	</div>
 </body>
 </html>
