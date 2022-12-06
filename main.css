@@ -111,6 +111,44 @@ form{
     width: 100%;
     height: 500px;
 }
-
+.line{
+    display: inline;
+}
+hr{
+    display: none;
+}
+@media only screen and (max-width: 390px) {
+     nav ul li{
+        width: 100%;
+        position: relative;
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+     }
+    nav{
+        height: 350px;
+     } 
+    .search{
+        width: 100%;
+        position: relative;
+        float: none;
+     }
+     .mag{
+        position: relative;
+        float: right;
+     }
+     .line{
+        display: none;
+     }
+     hr{
+        display: block;
+     }
+     .logo{
+        width: 70px;
+        height: 70px;
+       right: 10px;
+     }
+}
 
 

@@ -64,6 +64,49 @@
 			position: absolute;
 			top: 530px;
 		}
+		.description{
+			border-style: solid; 
+			margin: 0 2% 0px 2%; 
+			width: 60%; 
+			padding-left: 20px; 
+			display: inline-block; 
+			vertical-align: top;
+		}
+		.p{
+			font-size: 2em;
+		}
+		.testimonial{
+			width: 61%; 
+			margin-left: 2%; 
+			margin-top: -13%;
+		}
+		.testhead{
+			text-align: center;
+		}
+		.sales{
+			border-style: solid; 
+			width: 25%; 
+			padding: 10px; 
+			display: inline-block; 
+			margin: 20px; 
+		}
+		.jan{
+			border-style: solid; 
+			width: 25%; 
+			display: inline-block; 
+			margin: 10px; 
+			padding: 10px;
+		}
+		.intern{
+			border-style: solid; 
+			width: 25%; 
+			display: inline-block; 
+			margin: 20px; 
+			padding: 10px;
+		}
+		@media screen and (min-width: 1538) {
+			
+		}
 	</style>
 </head>
 
@@ -83,7 +126,7 @@
 
 
 		<li class = "dropdownhover">
-			<a href="vehicle.html" class="drop">VECHICLES  &nbsp; |</a>
+			<a href="vehicle.html" class="drop">VECHICLES  &nbsp; <div class="line">|</div></a>
 			<div class="dropdowncont">
 				<a href="#">Ford</a>
 				<a href="#">Jeep</a>
@@ -92,11 +135,12 @@
 				<a href="#">Mini Cooper</a>
 			</div>
 		</li>
+		<hr>
 <!-- end of code for drop down-->
-	<li><a href="financing.html" class="drop"> FINANCING &nbsp;|</a></li>
-	<li><a href="content.html" class="drop">CONTACT &nbsp;  |</a></li>
-	
-	
+	<li><a href="financing.html" class="drop"> FINANCING &nbsp;<div class="line">|</div></a></li>
+	<hr>
+	<li><a href="content.html" class="drop">CONTACT &nbsp;  <div class="line">|</div></a></li>
+	<hr>
 	<li>
 		<a href="#">
 			<img src="assets/mag.png" class="mag">
@@ -110,9 +154,9 @@
 <body>
 	<br>
 
-	<div style = "border-style: solid; margin: 0 2% 0px 2%; width: 60%; padding-left: 20px; display: inline-block; vertical-align: top;"> 
+	<div class="description"> 
 		<h1>WHY SHOULD YOU WORK FOR US?</h1>
-		<p style = "font-size: 2em"> At Car Little's Used Car Lot, we aim to provide for our employees as much as they provide for us. 70% of our interns are offered full time positions 
+		<p class="p"> At Car Little's Used Car Lot, we aim to provide for our employees as much as they provide for us. 70% of our interns are offered full time positions 
 		after their internship. Our Sales representatives make over $100,000 a year in salary, and up to half that in comissions. Car Little's Used Car Lot also offers benefits to all 
 		of our employees, including health insurance, car insurance, and even dental.   </p>
 	  </div>
@@ -141,24 +185,24 @@
     <input type="submit">
   </form>
 
-  <div style = "width: 61%; margin-left: 2%; margin-top: -18%;" >
-	<h1 style = "text-align: center;">TESTIMONIALS</h1>
-	<div style = "border-style: solid; width: 25%; padding: 10px; display: inline-block; margin: 20px;padding: 10px;">
+  <div class="testimonial">
+	<h1 class="testhead">TESTIMONIALS</h1>
+	<div class="sales">
 		<h2> Sales Rep. &#128188; </h2>
 		<p>
-			This job was a amazing, I got payed well. The bosses where so nice. I didn't have to work crazy hours I was able to learn and now I own my own business. 
+			This job was a amazing, I got payed well. The bosses where so nice. I didn't have to work crazy hours I was able to learn and now I own my own business. <br><br><br><br>
 		</p>
 	</div>
-	<div style = "border-style: solid; width: 25%; display: inline-block; margin: 10px; padding: 10px;">
+	<div class="jan">
 		<h2> Janitorial &#128465;</h2>
 		<p>
-			I loved working at Car Little's. The other workers were so nice and made the experanse a blast. We where able to move up in the company even thought we started at janitorial position. Just a great place to work.
+			I loved working at Car Little's. The other workers were so nice and made the experanse a blast. We where able to move up in the company even thought we started at janitorial position. Just a great place to work.<br><br><br>
 		</p>
 	</div>
-	<div style = "border-style: solid; width: 25%; display: inline-block; margin: 20px; padding: 10px;">
+	<div class="intern">
 		<h2> Intern &#128203; </h2>
 		<p>
-			I get a great work experanse as a intern. Everone is so nice to me, it is just a fun and loving envorment. Also after I graduate the company offers me a full time position. This intern jobs teachs me so much about running a used car lot.
+			I get a great work experanse as a intern. Everone is so nice to me, it is just a fun and loving envorment. Also after I graduate the company offers me a full time position. This intern jobs teachs me so much about running a used car lot.<br><br>
 		</p>
 	</div>
   </div>
