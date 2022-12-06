@@ -6,12 +6,12 @@ var global;
 for (let i = 0; i != argumentArray.length; i++) {
 finalDivOutput += 
 `<div class = "vehicleDiv" ${(i%2 == 0)? 'style = "margin-right: 0;"' : ""}> 
-<img height = "200px" src = "${argumentArray[i].imageURL}"> 
-<h1> ${argumentArray[i].year + " " + argumentArray[i].color + " " + argumentArray[i].brand + " " + argumentArray[i].model} </h1> 
-<h2 style = "margin-left: 450px;"> Price: ${"$" + argumentArray[i].price} </h2>
-<p style = "margin-left: 450px; margin-right: 40px;"> ${argumentArray[i].description} <br> <br>
+<img height = "200px" style = " margin-top: 10px;" src = "${argumentArray[i].imageURL}"> 
+<h1 style = "margin-left: 225px;"> ${argumentArray[i].year + " " + argumentArray[i].color + " " + argumentArray[i].brand + " " + argumentArray[i].model} </h1> 
+<h2 style = "margin-left: 250px;"> Price: ${"$" + argumentArray[i].price} </h2>
+<h2 style = "margin-left: 250px; margin-right: 40px;"> ${"Mileage: " + argumentArray[i].Miles} <br> <br>
     <button> BUY NOW! </button>    
-</p>
+</h2>
 </div>`
 }
 console.log(global);
@@ -20,7 +20,8 @@ document.getElementById("main").innerHTML = finalDivOutput;
 
 function searchRedirect (input) {
     window.location.href = "vehicle.html";
-    global = input;
+    document.cookie = "searchQuery = " + input + "; path =/vehicle.html";
+    document.cookie = "areSearch = true; path =/vehicle.html"
 }
 
 function searchInputGet () {
