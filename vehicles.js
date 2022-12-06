@@ -25,7 +25,7 @@ data = `[
         "color": "Forest Green",
         "price": "25,000",
         "Miles": "80,000",
-        "imageURL": "assets/_green ford focus.png"
+        "imageURL": "assets/green ford focus.png"
     },
     {
         "brand": "Mini Cooper",
@@ -196,7 +196,7 @@ data = `[
         "color": "White",
         "price": "5,400",
         "Miles": "170,000",
-        "imageURL": "assets/_nissan cube white.png"
+        "imageURL": "assets/nissan cube white.png"
     },
     {
         "brand": "Nissan",
