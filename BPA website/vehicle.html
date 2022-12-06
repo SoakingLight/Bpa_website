@@ -3,7 +3,8 @@
     <title>Car Little's Used Car Lot</title>
     <link rel="icon" type="image/x-icon" href = "assets/logo.png">
 	<link rel="stylesheet" href="main.css">
-    
+    <script src = "vehicles.js"></script>
+	<script src = "./divcreator.js"></script>
 
 </head>
     	
@@ -23,11 +24,11 @@
 		<li class = "dropdownhover">
 			<a href="vehicle.html" class="drop">VECHICLES  &nbsp; |</a>
 			<div class="dropdowncont">
-				<a href="#">Ford</a>
-				<a href="#">Jeep</a>
-				<a href="#">Chevy</a>
-				<a href="#">Dodge</a>
-				<a href="#">Mini Cooper</a>
+				<a href="#" onclick = "searchHandler('ford')">Ford</a>
+				<a href="#" onclick = "searchHandler('jeep')">Jeep</a>
+				<a href="#" onclick = "searchHandler('chevy')">Chevy</a>
+				<a href="#" onclick = "searchHandler('dodge')">Dodge</a>
+				<a href="#" onclick = "searchHandler('mini cooper')">Mini Cooper</a>
 			</div>
 		</li>
 <!-- end of code for drop down-->
@@ -40,7 +41,7 @@
 			<img src="assets/mag.png" class="mag">
 		</a>
 		<!--SEARCH FORM-->
-		<form height = "75px" method = "get" id = "searchform" onsubmit = "searchHandler(); return false;">
+		<form height = "75px" method = "get" id = "searchform" onsubmit = "searchInputGet(); return false;">
 			<input class = "search" id = "searchbar">
 		</form>
 	</li>
@@ -55,6 +56,8 @@
 
 	</div>
 </body>
-<script src = "vehicles.js"></script>
-<script src = "./divcreator.js"></script>
+
+<script>
+	pageWriter(vehicleArray);
+</script>
 </html>
