@@ -1,7 +1,17 @@
+let cookieChecker = document.cookie.split('; ');
 const vehicleArray = JSON.parse(data);
+
+function initialize () {
+    if (cookieChecker[1].includes('true')) {
+        searchHandler(cookieChecker[0].split("=")[1]);
+    }
+    else {
+        pageWriter(vehicleArray);
+    }
+}
+
 function pageWriter (argumentArray) {
 let finalDivOutput = "";
-var global;
 
 for (let i = 0; i != argumentArray.length; i++) {
 finalDivOutput += 
@@ -14,14 +24,20 @@ finalDivOutput +=
 </h2>
 </div>`
 }
-console.log(global);
+console.log(cookieChecker[1]);
 document.getElementById("main").innerHTML = finalDivOutput;
+}
+
+function resetCookies () {
+    document.cookie = "areSearch=false; path=/vehicle.html;";
 }
 
 function searchRedirect (input) {
     window.location.href = "vehicle.html";
-    document.cookie = "searchQuery = " + input + "; path =/vehicle.html";
-    document.cookie = "areSearch = true; path =/vehicle.html"
+    const d = new Date();
+    d.setTime(d.getTime() + 5);
+    document.cookie = "searchQuery = " + input + ";path =/vehicle.html;";
+    document.cookie = "areSearch = true; path =/vehicle.html;";
 }
 
 function searchInputGet () {
