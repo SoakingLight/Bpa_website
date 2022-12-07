@@ -2,7 +2,7 @@ let cookieChecker = document.cookie.split('; ');
 const vehicleArray = JSON.parse(data);
 
 function initialize () {
-    if (cookieChecker[1].includes('true')) {
+    if (cookieChecker[1].includes('true') && cookieChecker[1]) {
         searchHandler(cookieChecker[0].split("=")[1]);
     }
     else {
