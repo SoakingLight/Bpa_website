@@ -2,18 +2,18 @@ let cookieChecker = document.cookie.split('; ');
 const vehicleArray = JSON.parse(data);
 
 function initialize () {
-    try {
-        if (cookieChecker[1].includes('true')) {
-            searchHandler(cookieChecker[0].split("=")[1]);
-        }
-        else {
-            pageWriter(vehicleArray);
-        }
+    if (!cookieChecker[1]) {
+        pageWriter(vehicleArray);
     }
-    catch(e) {
+    if (cookieChecker[1].includes('true')) {
+           searchHandler(cookieChecker[0].split("=")[1]);
+    }
+     else {
         pageWriter(vehicleArray);
     }
 }
+
+
 
 function pageWriter (argumentArray) {
 let finalDivOutput = "";
