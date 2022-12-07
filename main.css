@@ -130,9 +130,12 @@ hr{
         height: 350px;
      } 
     .search{
-        width: 100%;
-        position: relative;
-        float: none;
+        width: 70%;
+        float: left;
+        position: absolute;
+        display: inline;
+        right: 30%;
+        margin-top: 5%;
      }
      .mag{
         position: relative;
