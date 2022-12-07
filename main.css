@@ -118,13 +118,16 @@ hr{
     display: none;
 }
 @media only screen and (max-width: 420px) {
-     nav ul li{
+    nav ul li{
         width: 100%;
         position: relative;
-        margin: 0;
+        margin: 0 0 0 4%;
         padding: 0;
         display: block;
-        text-align: center;
+     }
+     nav ul{
+        margin: 0;
+        padding: 0;
      }
     nav{
         height: 320px;
@@ -154,8 +157,9 @@ hr{
      .logo{
         width: 70px;
         height: 70px;
-       right: 0px;
+       right: 5px;
      }
+
      .dropdowncont:click{
         position: relative;
         top: 0px;
