@@ -12,42 +12,36 @@
 <a href="index.html">
 	<img src="assets/logo.png" class="logo">
 </a>
-
 <nav>
-	 
-
-<!--drop down menu-->
-
-
-<ul>
-
-
-		<li class = "dropdownhover">
-			<a href="vehicle.html" class="drop">VECHICLES  &nbsp; |</a>
-			<div class="dropdowncont">
-				<a href="#" onclick = "searchHandler('ford')">Ford</a>
-				<a href="#" onclick = "searchHandler('jeep')">Jeep</a>
-				<a href="#" onclick = "searchHandler('chevy')">Chevy</a>
-				<a href="#" onclick = "searchHandler('dodge')">Dodge</a>
-				<a href="#" onclick = "searchHandler('mini cooper')">Mini Cooper</a>
-			</div>
+	<!--drop down menu-->
+	<ul>
+			<li class = "dropdownhover">
+				<a href="vehicle.html" class="drop">VECHICLES  &nbsp; <div class="line">|</div></a>
+				<div class="dropdowncont">
+					<a href="#" onclick="searchRedirect('ford')">Ford</a>
+					<a href="#" onclick="searchRedirect('jeep')">Jeep</a>
+					<a href="#" onclick="searchRedirect('chevy')">Chevy</a>
+					<a href="#" onclick="searchRedirect('dodge')">Dodge</a>
+					<a href="#" onclick="searchRedirect('mini cooper')">Mini Cooper</a>
+				</div>
+			</li>
+			<hr>
+	<!-- end of code for drop down-->
+		<li><a href="financing.html" class="drop"> FINANCING &nbsp;<div class="line">|</div></a></li>
+		<hr>
+		<li><a href="content.html" class="drop">CONTACT &nbsp;  <div class="line">|</div></a></li>
+		<hr>
+		<li>
+			<a href="#">
+				<img src="assets/mag.png" class="mag">
+			</a>
+			<form height = "75px" method = "get" id = "searchform" onsubmit = "foreignSearch()" action = "vehicle.html">
+				<input class = "search" id = "searchbar">
+			</form>
 		</li>
-<!-- end of code for drop down-->
-	<li><a href="financing.html" class="drop"> FINANCING &nbsp;|</a></li>
-	<li><a href="content.html" class="drop">CONTACT &nbsp;  |</a></li>
-	
-	
-	<li>
-		<a href="#">
-			<img src="assets/mag.png" class="mag">
-		</a>
-		<!--SEARCH FORM-->
-		<form height = "75px" method = "get" id = "searchform" onsubmit = "searchInputGet(); return false;">
-			<input class = "search" id = "searchbar">
-		</form>
-	</li>
-</ul>
-</nav>
+	</ul>
+	</nav>
+
     	
 <!-- THIS IS THE IMPORTANT PART LOOK HERE  -->
 
