@@ -38,7 +38,9 @@ function resetCookies () {
 }
 
 function searchRedirect (input) {
+    console.log(input);
     window.location.href = "vehicle.html";
+    console.log(window.location.href);
     const d = new Date();
     d.setTime(d.getTime() + 5);
     document.cookie = "searchQuery = " + input + ";path =/vehicle.html;";
@@ -48,6 +50,12 @@ function searchRedirect (input) {
 function searchInputGet () {
     const input = document.getElementById("searchbar").value;
     searchHandler(input);
+}
+
+function foreignSearch () {
+    const input = document.getElementById("searchbar").value;
+    console.log(input);
+    searchRedirect(input);    
 }
 
 function searchHandler (input) {
