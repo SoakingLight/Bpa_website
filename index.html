@@ -83,13 +83,20 @@ body{
 	border: 10px ; 
 	border-color: #4CAF50; 
 }
+@media only screen and (max-width: 1920px){
+.hiddenbutton{
+	display: none;
+}
+}
+	
+
 @media only screen and (max-width: 420px) {
 	.backhome{
 		width: 100%;
 		height: 500px;
 	}
 	.maps{
-		margin-bottom: 5%;
+		display: none;
 	}
 	.where{
 text-align: center;
@@ -103,6 +110,10 @@ padding-left: 0%;
 		margin-top: 20%;
 		 border: 10px ; 
 		border-color: #4CAF50; 
+	}
+	.hiddenbutton{
+display: show;
+margin-left: 40%;
 	}
 }
 	</style>
@@ -175,10 +186,18 @@ padding-left: 0%;
  
   <div>
 	<a href="https://www.google.com/maps/place/Oakland+Technical+Center,+Southwest+Campus/@42.5376821,-83.5158497,17z/data=!4m5!3m4!1s0x8824a60e3e29e117:0xf100d5123804d8d4!8m2!3d42.5378369!4d-83.5164628" target="_blank">
-	<img class="maps" src="assets/map.png" alt="Oakland Technical Center, Southwest Campus" style=" " >
+	<img class="maps" src="assets/map.png" alt="Oakland Technical Center, Southwest Campus" >
 	</a>
+
 </div>
-	
+	<div class = "hiddenbutton"> 
+		<a href="https://www.google.com/maps/place/Oakland+Technical+Center,+Southwest+Campus/@42.5376821,-83.5158497,17z/data=!4m5!3m4!1s0x8824a60e3e29e117:0xf100d5123804d8d4!8m2!3d42.5378369!4d-83.5164628" target="_blank"> 
+			<button>Go to Map</button> 
+		</a>
+		</div>
+
+
+<!--This is the inventory code -->
 	<div class="cars" >
 		<h1 style="text-align:center;">check out our inventory</h1>
 		
